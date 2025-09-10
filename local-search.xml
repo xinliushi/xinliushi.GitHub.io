@@ -8,7 +8,7 @@
     <link href="/2025/01/01/Deploy%20Test/"/>
     <url>/2025/01/01/Deploy%20Test/</url>
     
-    <content type="html"><![CDATA[<p>打开 Termux，输入以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">nginx -s reload<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>打开 Termux，输入以下命令：</p><p>启动 ssh 远程连接服务</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sshd<br></code></pre></td></tr></table></figure><p>重载 nginx 配置文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">nginx -s reload<br></code></pre></td></tr></table></figure>]]></content>
     
     
     
